@@ -1,4 +1,4 @@
-Here are **important JavaScript (JS) notes** in a **simple and easy way**:
+ **important JavaScript (JS) notes** in a **simple and easy way**
 
 ---
 
@@ -136,12 +136,3 @@ JSON.stringify(obj)
 JSON.parse(json)
 ```
 
----
-
-If you want, I can also give:
-✅ Interview questions
-✅ MCQ practice
-✅ Node.js notes
-✅ Real coding examples
-
-Just tell 👍
