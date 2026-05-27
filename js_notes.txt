@@ -290,11 +290,3 @@ for (let i of arr)
 * `undefined` → value not assigned
 * `null` → intentionally empty
 
----
-
-If you want next level:
-✅ Top JS interview questions
-✅ Coding mistakes with outputs
-✅ Tricky MCQs
-
-Just tell 👍
