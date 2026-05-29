@@ -1,3 +1,4 @@
+//find largest word in a sentence
 function findlngwrd(str) {
      str = str.split(" ")
       let largeword = ""
@@ -9,4 +10,4 @@ function findlngwrd(str) {
      }
      return largeword
 }
-console.log(findlngwrd("the word issue tje topnouch is"));
+console.log(findlngwrd("hello i'am lokh nice to meet you"));
