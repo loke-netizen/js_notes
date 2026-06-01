@@ -91,3 +91,68 @@ let b = a++;
 console.log(a, b);
 
 
+output
+
+1. `"object"`
+
+2. `true`
+
+3.
+
+```js id="xowh9w"
+3
+"52"
+```
+
+4. `false`
+
+5. `false`
+
+6. `""`
+
+7. `2`
+
+8. `true`
+
+9. `false`
+
+10. `ReferenceError`
+
+11. `true`
+
+12. `"number"`
+
+13. `false`
+
+14. `true`
+
+15.
+
+```js id="4ed6tv"
+true
+false
+```
+
+16.
+
+```js id="gk3m72"
+true
+true
+```
+
+17. `10`
+
+18. `11`
+
+19.
+
+```js id="8z8g1g"
+"[object Object]"
+0
+```
+
+20.
+
+```js id="8t6m3k"
+2 1
+```
