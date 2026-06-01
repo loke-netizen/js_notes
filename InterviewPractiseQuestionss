@@ -1,0 +1,92 @@
+1.
+console.log(typeof null);
+
+
+2.
+console.log([] == false);
+
+
+3.
+console.log("5" - 2);
+console.log("5" + 2);
+
+
+4.
+console.log(NaN == NaN);
+
+
+5.
+let a = [];
+let b = [];
+console.log(a == b);
+
+
+6.
+console.log([] + []);
+
+
+7.
+console.log(true + true);
+
+
+8.
+console.log(1 < 2 < 3);
+
+
+9.
+console.log(3 > 2 > 1);
+
+
+10.
+let x = 10;
+(function () {
+  console.log(x);
+  let x = 20;
+})();
+
+
+11.
+console.log([] == ![]);
+
+
+12.
+console.log(typeof NaN);
+
+
+13.
+console.log(0.1 + 0.2 === 0.3);
+
+
+14.
+console.log("2" > "12");
+
+
+15.
+console.log(null == undefined);
+console.log(null === undefined);
+
+
+16.
+console.log(Boolean([]));
+console.log(Boolean({}));
+
+
+17.
+console.log("5" * "2");
+
+
+18.
+console.log(+"10" + 1);
+
+
+19.
+console.log([] + {});
+console.log({} + []);
+
+
+20.
+let a = 1;
+let b = a++;
+console.log(a, b);
+
+
