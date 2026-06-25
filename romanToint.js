@@ -1,4 +1,4 @@
-function romanToInt(num){
+function romanToInt(num) {
     const romanMap = [
         { value: 1000, symbol: "M" },
         { value: 900, symbol: "CM" },
@@ -15,21 +15,24 @@ function romanToInt(num){
         { value: 1, symbol: "I" }
     ];
 
-    let roman=""
-    for (i=0;i<romanMap.length;i++){
-        if(romanMap[i].value==1){
-            console.log("iiioionhk   "+i);
-            
-        }
-        const {value,symbol}=romanMap[i]
+    let roman = ""
+    for (i = 0; i < romanMap.length; i++) {
+        if (romanMap[i].value == 1) {
+            console.log("iiioionhk   " + i);
 
-        while(num>=value){
-            roman+=symbol;
-            num-=value
-            if(num===0)  return roman
         }
+        const { value, symbol } = romanMap[i]
+
+        while (num >= value) {
+            roman += symbol;
+            num -= value
+            if (num === 0) return roman//option
+        }
+        // for (; int >= value; int -= value) {
+        //     roman += symbol
+        // }
 
     }
-  
+
 }
-console.log(romanToInt(53));
+console.log(romanToInt(2000));
