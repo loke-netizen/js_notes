@@ -1,4 +1,5 @@
 function rotateArray(arr, k) {
+    if (arr.length === 0) return arr;
     k = k % arr.length
 
     reverse(arr, 0, arr.length - 1)//54321
@@ -14,5 +15,5 @@ function reverse(arr, start, end) {
         end--
     }
 }
-let array = [1, 2, 3, 4, 5]  
-console.log(rotateArray(array, 3));
+let array = [1,2,3,4,5,6,7]  
+console.log(rotateArray(array, 2));
